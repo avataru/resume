@@ -1,0 +1,83 @@
+- company: Pentalog
+  url: https://www.pentalog.com/
+  position: Security Analyst
+  period: February 2019 &mdash; Present
+  summary: A full-stack IT services group serving companies from startups to fortune 500s.
+  highlights:
+    - Performed audits for internal and external projects
+    - Promoted security best practices company-wide
+
+- company: YourShore / Pentalog
+  url: https://www.pentalog.com/
+  position: Senior Web Developer
+  period: November 2016 &mdash; February 2019
+  summary: A full-stack IT services group serving companies from startups to fortune 500s.
+  highlights:
+    - Worked on the Sportradar's Federation Management Platform for both football and handball
+
+- company: WebVenture Interactive
+  url: https://www.webventure.ro/
+  position: Senior Web Developer
+  period: March 2016 &mdash; November 2016
+  summary: WebVenture Interactive was a web development and online marketing agency.
+  highlights:
+    - "Worked on an internal Tezaur Exchange application in Laravel 5.1: exchange transactions module, reports module and fiscal printer support"
+    - Wrote a fiscal printer communication driver
+    - Build a mobile-app administration and push notifications back-end for Știrile Pro using Laravel 5.2
+
+- company: Vola/FRU.pl / WebVenture Interactive
+  url: https://www.vola.ro/
+  position: Senior Web Developer
+  period: January 2015 &mdash; March 2016
+  summary: Vola.ro was the largest online travel agency in Romania.
+  highlights:
+    - Worked on the redesign and switch to an AngularJS front-end
+    - Refactored some of the core modules (flights, hotels, packages)
+
+- company: eJobs
+  url: https://www.ejobs.ro/
+  position: Senior Web Developer
+  period: June 2011 &mdash; December 2014
+  summary: One of the two biggest online Romanian job portals.
+  highlights:
+    - Refactored most of the website code into OOP
+    - Implemented APIs for users and companies
+    - Created the CV Rank scoring system
+    - Created the eJobs Expo CV bar code system
+    - Implemented APIs for users and companies
+    - Maintained the code for locuridemunca.ro
+
+- company: Ashley & Holmes / Frank Communication
+  url: http://www.frankgroup.ro/
+  position: Senior Web Developer
+  period: September 2008 &mdash; June 2011
+  summary: Full-service advertising agency.
+  highlights:
+    - Developed websites and managed SEM and email marketing campaigns
+    - "Worked on projects for: Cosmote, Romtelecom, Sprider Stores, Mobile News, Skoda, ASIROM and LacertA Winery"
+    - Managed the development for ASIROM's partners' portal (intranet application)
+    - Developed the Romtelecom Business ordering system backend and database structure
+    - Introduced Basecamp as a project management tool for the whole agency
+    - Introduced Springloops as a versioning and project management tool for the development/implementation department
+
+- company: Euro Systems Development
+  url: https://eurosystemsdevelopment.com/
+  position: Junior .NET Developer
+  period: April 2007 &mdash; September 2007
+  summary: Outsourcing provider of offshore software development services for the USA market.
+  highlights:
+    - Worked on an HR case management application build with MSSQL and C# in ASP.NET (HR Acuity On-Demand) used by Fortune 500 companies such as Amazon and AOL
+
+- company: Grup Scolar Silvic "Dr. N. Rucareanu", Brasov
+  position: Network Administrator
+  period: December 2006 &mdash; March 2007
+  summary:
+  highlights:
+    - Extended and managed the network and secured all the workstation
+
+- company: Eteric-Ro Net
+  position: Junior Web Designer
+  period: June 2003 &mdash; November 2003
+  summary: Subsidiary of a French company that ran multiple web portals worldwide.
+  highlights:
+    - Created advertisement banners and website layouts in Adobe Photoshop

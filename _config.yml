@@ -1,0 +1,57 @@
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+  - jekyll-purgecss
+
+# jekyll-seo-tag configuration
+author: ""
+url: ""
+title: ""
+description: ""
+twitter:
+  username: ""
+  card: ""
+logo: "path/to/image"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - bin
+  - .gitignore
+
+# Resume settings
+resume_avatar: true
+resume_name: Mihai Zaharie
+# resume_title: Security Analyst
+resume_contact_email: mihai@zaharie.ro
+
+resume_section_experience: true
+resume_section_education: true
+resume_section_volunteering: true
+resume_section_skills: true
+resume_section_interests: true
+
+resume_social_links:
+  resume_website_url: https://mihai.zaharie.ro
+  resume_github_url: https://github.com/avataru
+  resume_linkedin_url: https://www.linkedin.com/in/mihaizaharie
+  # resume_twitter_url: insert your Twitter URL here
+  # resume_facebook_url: insert your Facebook URL here
+  # resume_instagram_url: insert your Instagram URL here
+  # resume_medium_url: insert your Medium URL here
+resume_print_social_links: true

@@ -1,0 +1,27 @@
+- organization: Code4Romania
+  role: Volunteer
+  period: 2019 &mdash; Present
+  url: https://code4.ro/
+  summary: Inspired by the Code for America movement and the Code for All network, it aims to improve the society we live in by coming up with digital solutions to societal issues since the beginning of 2016.
+  highlights:
+    - Worked on the Monitorizare Vot API (Laravel) and Catalog Politic (Python)
+
+- organization: TEDxBucharest
+  role: Volunteer &mdash; Core Team
+  period: 2015 &mdash; Present
+  url: https://tedxbucharest.ro/
+  summary: The TEDx Program is designed to help communities, organizations and individuals to spark conversation and connection through local TED-like experiences.
+  highlights:
+    - Managed the event website
+    - Built a Facebook application that allows followers to overlay the TEDx Bucharest logo over their profile picture
+
+- organization: Board of European Students of Technology
+  role: Member
+  period: 2001 &mdash; 2006
+  url: https://best.eu.org/
+  summary: BEST, Board of European Students of Technology is a constantly growing non-profit and non-political organisation providing communication, co-operation and exchange possibilities for students all over Europe since 1989.
+  highlights:
+    - "Organized events for both local and foreign students: Job Shop, academic and leisure summer courses and LAN parties"
+    - Coordinated the BEST PC Party 2005 edition, which had over 200 participants
+    - Maintained the European BEST website as a member of the webTeam workgroup
+    - Recruited new members

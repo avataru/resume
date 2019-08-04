@@ -1,0 +1,23 @@
+- skill: Security
+  keywords:
+    - Acunetix
+    - Nessus
+    - WPScan
+    - SQLMap
+    - OWASP Top 10
+
+- skill: Methodologies
+  keywords:
+    - OOP
+    - TDD
+    - DDD
+    - Agile
+    - Kanban
+
+- skill: Programming
+  keywords:
+    - Laravel
+    - Symfony
+    - Vue.js
+    - AngularJS
+    - Python

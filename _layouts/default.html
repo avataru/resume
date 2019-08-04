@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white antialiased">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    {% assign current_title = site.resume_title | default: site.data.experience[0].position %}
+
+    <title>{{ site.resume_name }} - {{ current_title }}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <div class="top">
+        <div class="container">
+            {% if site.resume_avatar == true %}
+            <div class="profile-pic" style="background-image: url('/images/avatar.jpg')"></div>
+            {% endif %}
+            <div class="name-title">
+                <div class="name">{{ site.resume_name }}</div>
+                <div class="job-title">{{ current_title }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container">
+        <div class="bio">
+            <strong>Enthusiastic web developer</strong> experienced with both websites and web applications.<br />
+            <strong>Team player</strong> known for contributing creative solutions. Able to give and embrace constructive criticism. <br />
+            <strong>Clean, quality code writer</strong>, follower of current best practices. <br />
+            <strong>Loves new technologies</strong> and has a desire to learn new things.
+        </div>
+        <div class="profiles">
+            <div class="heading">Profiles</div>
+            {% if site.resume_social_links.resume_linkedin_url %}
+            <div>
+                <span class="label fa fa-github"></span>
+                <span class="data"><span class="website"><a href="https://github.com/avataru">{{ site.resume_social_links.resume_linkedin_url }}</a></span></span>
+            </div>
+            {% endif %}
+            {% if site.resume_social_links.resume_github_url %}
+            <div>
+                <span class="label fa fa-linkedin"></span>
+                <span class="data"><span class="website"><a href="https://github.com/avataru">{{ site.resume_social_links.resume_github_url }}</a></span></span>
+            </div>
+            {% endif %}
+        </div>
+        <div class="contact">
+            <div class="heading">Contact</div>
+            <div>
+                <span class="label">Website</span><span class="data">{{ site.resume_social_links.resume_website_url }}</span>
+            </div>
+            <div>
+                <span class="label">Email</span><span class="data">{{ site.resume_contact_email }}</span>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div id="work" class="">
+            <div class="heading">Experience</div>
+            {% for item in site.data.experience %}
+            <div class="item">
+                <div class="overview">
+                    <div class="details">
+                        <div class="label">
+                            {% if item.url %}<a href="{{ item.url }}">{% endif %}
+                                {{ item.company }}
+                            {% if item.url %}</a>{% endif %}
+                        </div>
+                        <div class="date">{{ item.period }}</div>
+                        <div class="position">{{ item.position }}</div>
+                    </div>
+                    <div class="summary">{{ item.summary }}</div>
+                </div>
+                <div class="highlights">
+                    <span class="label">Highlights</span>
+                    <ul>
+                        {% for highlight in item.highlights %}
+                        <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div id="volunteer">
+            <div class="heading">Volunteering</div>
+            {% for item in site.data.volunteering %}
+            <div class="item">
+                <div class="overview">
+                    <div class="details">
+                        <div class="label">
+                            {% if item.url %}<a href="{{ item.url }}">{% endif %}
+                                {{ item.organization }}
+                            {% if item.url %}</a>{% endif %}
+                        </div>
+                        <div class="date">{{ item.period }}</div>
+                        <div class="position">{{ item.role }}</div>
+                    </div>
+                    <div class="summary">{{ item.summary }}</div>
+                </div>
+                <div class="highlights">
+                    <span class="label">Highlights</span>
+                    <ul>
+                        {% for highlight in item.highlights %}
+                        <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="education">
+            <div class="heading">Education</div>
+            {% for item in site.data.education %}
+            <div class="item">
+                <div class="institution">
+                    <div class="label">
+                        {% if item.url %}<a href="{{ item.url }}">{% endif %}
+                            {{ item.institution }}
+                        {% if item.url %}</a>{% endif %}
+                    </div>
+                    <div class="studyType">{{ item.degree }}</div>
+                    <div class="date">{{ item.period }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="skills">
+            <div class="heading">Skills</div>
+            {% for item in site.data.skills %}
+            <div class="item">
+                <div class="label">{{ item.skill }}</div>
+                <ul class="keywords">
+                    {% for keyword in item.keywords %}
+                    <li>{{ keyword }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="interests">
+            <div class="heading">Skills</div>
+            {% for item in site.data.interests %}
+            <div class="item">
+                <div class="label">{{ item.interest }}</div>
+                <ul class="keywords">
+                    {% for keyword in item.keywords %}
+                    <li>{{ keyword }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="footer"></div>
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+</body>
+</html>
