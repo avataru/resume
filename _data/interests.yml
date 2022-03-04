@@ -1,13 +1,17 @@
-- interest: User experience
+- interest: Security
   keywords:
-    - UI design
-    - Usability
+    - OSINT
+    - Cryptography
+    - Capture the flag
 
 - interest: Security
   keywords:
-    - Cryptography
-    - Encryption
+    - Threat intelligence
+    - Malware analysis
+    - Lockpicking
 
-- interest: Machine learning
+- interest: Other
   keywords:
-    - Natural language processing
+    - User experience
+    - Home automation
+    - Privacy

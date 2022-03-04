@@ -31,23 +31,24 @@
     <div class="clearfix"></div>
     <div class="container">
         <div class="bio">
+            <strong>Curious security engineer</strong> always looking to learn new things.<br />
             <strong>Enthusiastic web developer</strong> experienced with both websites and web applications.<br />
-            <strong>Team player</strong> known for contributing creative solutions. Able to give and embrace constructive criticism. <br />
-            <strong>Clean, quality code writer</strong>, follower of current best practices. <br />
-            <strong>Loves new technologies</strong> and has a desire to learn new things.
+            <strong>Team player</strong> known for contributing creative solutions. Able to give and embrace constructive criticism.<br />
+            <strong>Clean, quality code writer</strong>, follower of current best practices.<br />
+            <strong>Loves new technologies</strong> and has a desire to try everything out.
         </div>
         <div class="profiles">
             <div class="heading">Profiles</div>
             {% if site.resume_social_links.resume_linkedin_url %}
             <div>
                 <span class="label fa fa-github"></span>
-                <span class="data"><span class="website"><a href="https://github.com/avataru">{{ site.resume_social_links.resume_linkedin_url }}</a></span></span>
+                <span class="data"><span class="website"><a href="{{ site.resume_social_links.resume_github_url }}">{{ site.resume_social_links.resume_github_url }}</a></span></span>
             </div>
             {% endif %}
             {% if site.resume_social_links.resume_github_url %}
             <div>
                 <span class="label fa fa-linkedin"></span>
-                <span class="data"><span class="website"><a href="https://github.com/avataru">{{ site.resume_social_links.resume_github_url }}</a></span></span>
+                <span class="data"><span class="website"><a href="{{ site.resume_social_links.resume_linkedin_url }}">{{ site.resume_social_links.resume_linkedin_url }}</a></span></span>
             </div>
             {% endif %}
         </div>
@@ -154,7 +155,7 @@
         <div class="clearfix"></div>
 
         <div class="interests">
-            <div class="heading">Skills</div>
+            <div class="heading">Interests</div>
             {% for item in site.data.interests %}
             <div class="item">
                 <div class="label">{{ item.interest }}</div>

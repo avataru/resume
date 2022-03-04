@@ -1,10 +1,10 @@
 - skill: Security
   keywords:
-    - Acunetix
-    - Nessus
-    - WPScan
-    - SQLMap
+    - Metasploit
+    - Burp Suite
+    - OWASP ZAP
     - OWASP Top 10
+    - OWASP ASVS
 
 - skill: Methodologies
   keywords:
